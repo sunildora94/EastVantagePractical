@@ -51,10 +51,12 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <section className="main-content p-5">
+        <section className="main-content p-5 w-100">
           <Container>
             <Row className="mb-5">
-              <col><h1>{constants.USER_DETAILS_LABEL}</h1></col>
+              <Col md={7}>
+                <h1>{constants.USER_DETAILS_LABEL}</h1>
+              </Col>
               <Col>
                 <Button onClick={handleRefreshBtnClick} disabled={loader}>
                   {constants.REFRESH_BUTTON_LABEL}
