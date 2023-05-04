@@ -1,6 +1,6 @@
 # This project is developed for giving the practical task to the East Vantage organization.
 
-Demo [link](https://sunildora94.github.io/eastvantagePractical/).
+Demo [link](https://zippy-figolla-0aa899.netlify.app/).
 
 ## Available Scripts
 
